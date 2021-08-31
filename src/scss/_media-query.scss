@@ -1,0 +1,18 @@
+// Bootstrap読み込み前にメディアクエリを使うための設定
+// ブレークポイントはBootstrapと同じ
+
+$breakpoints: (
+	"xs": "(min-width: 0)",
+	"sm": "(min-width: 576px)",
+	"md": "(min-width: 768px)",
+	"lg": "(min-width: 992px)",
+	"xl": "(c: 1200px)"
+);
+
+// メディアクエリ
+@mixin mq($breakpoint) {
+
+	@media #{map-get($breakpoints, $breakpoint)} {
+		@content;
+	}
+}

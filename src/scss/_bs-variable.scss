@@ -1,0 +1,33 @@
+// Bootstrapの変数を上書き
+$font-family-sans-serif: "Lato", "Helvetica Neue", helvetica, "Arial",
+	"Noto Sans", "Noto Sans CJK JP", "Noto Sans Japanese", "游ゴシック体",
+	"Yu Gothic", yugothic, "Hiragino Kaku Gothic ProN", meiryo, sans-serif;
+
+$font-size-lg: 1rem;
+$enable-responsive-font-sizes: true;
+$line-height-base: 1.65;
+
+$link-color: #2f2c2a;
+$link-hover-decoration: none;
+$link-hover-color: #102942;
+
+$theme-colors: (
+	"main": #f8f9fa,
+	"accent": #102942,
+	"form": #f8f9fa,
+	"success": #838f1b,
+	"danger": #8f3f14
+);
+$body-color: #2f2c2a;
+$progress-bar-bg: rgba(16, 41, 66, 0.9);
+
+$input-focus-box-shadow: 0 0 0 1px #e2e6ea;
+
+$transition-fade: opacity 0.2s ease;
+
+$jumbotron-padding: 11rem;
+
+$badge-font-size: 80%;
+$badge-font-weight: 500;
+$badge-padding-x: 0.5em;
+$badge-padding-y: 0.4em;

@@ -1,0 +1,194 @@
+// サブセット化済みのNoto Sans CJK JPを読み込み
+@font-face {
+	font-family: "Noto Sans Japanese";
+	font-weight: 400;
+	src: url(./fonts/NotoSansCJKjp-Regular.woff2) format("woff2");
+}
+
+@font-face {
+	font-family: "Noto Sans Japanese";
+	font-weight: 700;
+	src: url(./fonts/NotoSansCJKjp-Bold.woff2) format("woff2");
+}
+
+html {
+	font-size: 14px; // 1rem = 14px
+}
+
+body {
+	letter-spacing: 0.1em;
+}
+
+p {
+	color: #2f2c2a;
+}
+
+.main {
+	padding-top: 60px;
+
+	@include mq(lg) {
+		padding-top: 80px;
+	}
+}
+
+.jumbotron {
+	margin-bottom: 0 !important;
+	background: url(./images/main-visual.jpg) no-repeat 50% / cover;
+}
+
+.content-block {
+	padding: 6rem 0;
+
+	@include mq(md) {
+		padding: 7.5rem 0;
+	}
+}
+
+.mb-6 {
+	margin-bottom: 5rem;
+}
+
+.mb-7 {
+	margin-bottom: 6.5rem;
+}
+
+.pl-6 {
+	padding-left: 4rem;
+}
+
+.pr-6 {
+	padding-right: 4rem;
+}
+
+.pager-fs {
+	font-size: 0.8rem;
+
+	@include mq(md) {
+		font-size: 1rem;
+	}
+}
+
+.px-btn {
+	padding-right: 8rem !important;
+	padding-left: 8rem !important;
+
+	@include mq(md) {
+		padding-right: 4.5rem !important;
+		padding-left: 4.5rem !important;
+	}
+}
+
+.ltr-spacing {
+	letter-spacing: 2.7px;
+}
+
+.link-st {
+	text-decoration: underline;
+
+	&:hover {
+		color: #fff;
+		text-decoration: underline;
+		background-color: #102942;
+	}
+}
+
+.link-privacy {
+	transition: all 0.2s ease;
+
+	&:hover {
+		color: rgba(255, 255, 255, 0.9) !important;
+		text-decoration: underline;
+	}
+}
+
+.btn-accent:hover {
+	background-color: rgba(16, 41, 66, 0.8) !important;
+	border-color: rgba(16, 41, 66, 0.8) !important;
+}
+
+.btn-accent:visited {
+	color: #fff;
+}
+
+.works-width {
+	max-width: 92% !important;
+
+	@include mq(md) {
+		max-width: 32% !important;
+	}
+}
+
+.mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 2rem;
+	background: rgba(16, 41, 66, 0.85);
+	opacity: 0;
+
+	@include mq(md) {
+		padding: 1rem;
+		font-size: 0.8rem;
+	}
+
+	@include mq(lg) {
+		padding: 2rem;
+		font-size: 1rem;
+	}
+
+	&:hover {
+		opacity: 1;
+		transition: all 1s ease;
+	}
+
+	&__number {
+		font-size: 1.8rem;
+
+		@include mq(md) {
+			font-size: 1rem;
+		}
+
+		@include mq(lg) {
+			font-size: 1.8rem;
+		}
+	}
+
+	&__title {
+		font-size: 1rem;
+
+		@include mq(md) {
+			font-size: 0.8rem;
+		}
+
+		@include mq(lg) {
+			font-size: 1rem;
+		}
+	}
+}
+
+::selection {
+	background: #b6d5fc;
+}
+
+// Contact Form 7
+.screen-reader-response,
+.wpcf7-response-output {
+	display: none;
+}
+
+.wpcf7 .ajax-loader {
+	display: block;
+	margin: 16px auto 0;
+	vertical-align: middle;
+	background-color: #102942;
+}
+
+.wpcf7 .ajax-loader::before {
+	background-color: #f8f9fa;
+}
+
+.wpcf7-not-valid-tip {
+	color: #8f3f14;
+}

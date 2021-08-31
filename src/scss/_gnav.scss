@@ -1,0 +1,109 @@
+.gnav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 20;
+	padding-top: 100px;
+	overflow: scroll;
+	pointer-events: none;
+	background: #fff;
+	opacity: 0;
+	transition: all 0.3s;
+
+	@include mq(lg) {
+		position: initial;
+		padding-top: initial;
+		overflow: initial;
+		pointer-events: initial;
+		background: initial;
+		opacity: initial;
+	}
+
+	.is-nav-open & {
+		pointer-events: auto;
+		opacity: 1;
+	}
+
+	&__list {
+		align-items: center;
+		padding: 0 18px;
+		margin: 0;
+		text-align: center;
+		list-style: none;
+
+		@include mq(lg) {
+			display: flex;
+			padding: initial;
+		}
+	}
+
+	&__item {
+		margin-bottom: 32px;
+		opacity: 0;
+		transition: all 0.3s;
+		transform: translateY(-10px);
+
+		@include mq(lg) {
+			margin-bottom: initial;
+			opacity: initial;
+			transform: initial;
+		}
+
+		&:hover {
+			opacity: 0.8;
+		}
+
+		.is-nav-open & {
+			opacity: 1;
+			transform: translateY(10px);
+		}
+
+		&:not(:last-child) {
+
+			@include mq(lg) {
+				margin-right: 30px;
+			}
+		}
+
+		// フルスクリーンナビ用アニメーション
+		&:nth-child(1) {
+			transition-delay: 0.05s;
+		}
+
+		&:nth-child(2) {
+			transition-delay: 0.1s;
+		}
+
+		&:nth-child(3) {
+			transition-delay: 0.15s;
+		}
+
+		&:nth-child(4) {
+			transition-delay: 0.2s;
+		}
+
+		&:nth-child(5) {
+			transition-delay: 0.25s;
+		}
+	}
+
+	&__link {
+		display: block;
+
+		@include mq(lg) {
+			transition: all 0.2s ease;
+		}
+	}
+
+	&__desc {
+		display: block;
+		margin-top: 8px;
+		color: rgba(47, 44, 42, 0.7);
+
+		@include mq(lg) {
+			display: none;
+		}
+	}
+}

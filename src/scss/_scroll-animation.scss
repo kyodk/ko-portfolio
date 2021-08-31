@@ -1,0 +1,20 @@
+// スクロールイベント発火前のスタイル
+.sa-fade,
+.sa-hop,
+.sa-right,
+.sa-left {
+	opacity: 0;
+	transition: all 0.4s ease-in;
+}
+
+.sa-hop {
+	transform: translate(0, 20px);
+}
+
+.sa-right {
+	transform: translate(60px, 0);
+}
+
+.sa-left {
+	transform: translate(-60px, 0);
+}
