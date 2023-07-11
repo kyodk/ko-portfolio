@@ -1,4 +1,10 @@
 {
+  "[php]": {
+    "editor.defaultFormatter": "persoderlind.vscode-phpcbf",
+  },
+  "phpcs.executablePath": "./vendor/bin/phpcs",
+  "phpcbf.executablePath": "./vendor/bin/phpcbf",
+  "phpcbf.onsave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
@@ -6,10 +12,6 @@
   "editor.formatOnSave": false,
   "css.validate": false,
   "scss.validate": false,
-  "phpcs.standard": "./phpcs.xml.dist",
-  "phpcs.executablePath": "./vendor/bin/phpcs",
-  "phpcbf.standard": "./phpcs.xml.dist",
-  "phpcbf.executablePath": "./vendor/bin/phpcbf",
-  "phpcbf.onsave": true,
   "editor.insertSpaces": false
 }
+

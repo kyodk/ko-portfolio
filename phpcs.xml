@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ruleset name="Custom WordPress">
+	<!-- Check PHP files only. -->
+	<arg name="extensions" value="php"/>
+
+	<!-- Check all files in this directory and the directories below it. -->
+	<file>.</file>
+
+	<!-- Exclude patterns. -->
+	<exclude-pattern>/vendor/*</exclude-pattern>
+	<exclude-pattern>/node_modules/*</exclude-pattern>
+
+	<rule ref="WordPress">
+			<exclude name="Generic.Arrays.DisallowShortArraySyntax" />
+	</rule>
+</ruleset>

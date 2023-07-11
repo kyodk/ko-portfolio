@@ -12,8 +12,8 @@
     "lint:es:fix": "eslint --fix src/**/*.js",
     "lint:style": "stylelint src/**/*.scss",
     "lint:style:fix": "stylelint --fix src/**/*.scss",
-    "lint:php": "./vendor/bin/phpcs --standard=./phpcs.xml.dist",
-    "lint:php:fix": "./vendor/bin/phpcbf --standard=./phpcs.xml.dist"
+    "lint:php": "./vendor/bin/phpcs",
+    "lint:php:fix": "./vendor/bin/phpcbf"
   },
   "author": "",
   "license": "ISC",
