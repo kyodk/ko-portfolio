@@ -85,7 +85,7 @@
 						<?php endif; ?>
 					</li>
 					<li class="gnav__item">
-						<a class="gnav__link btn btn-accent rounded-0" href="https://github.com/kyodk/" target="_blank" rel="noopener noreferrer">GitHub</a>
+						<a class="gnav__link btn btn-accent" href="https://github.com/kyodk/" target="_blank" rel="noopener noreferrer">GitHub</a>
 					</li>
 				</ul>
 			</nav><!-- .gnav -->

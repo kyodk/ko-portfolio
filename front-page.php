@@ -149,13 +149,13 @@ get_header();
 							</div>
 							<div class="col-12 col-md-5">
 								<ul class="pl-0 m-0">
-									<li class="badge badge-accent rounded-0 mr-1 mb-2">BEM</li>
-									<li class="badge badge-accent rounded-0 mr-1 mb-2">Git / GitHub</li>
-									<li class="badge badge-accent rounded-0 mr-1 mb-2">npm</li>
-									<li class="badge badge-accent rounded-0 mr-1 mb-2">ターミナル</li>
-									<li class="badge badge-accent rounded-0 mr-1 mb-2">Photoshop</li>
-									<li class="badge badge-accent rounded-0 mr-1 mb-2">Illustrator</li>
-									<li class="badge badge-accent rounded-0 mr-1 mb-2">Adobe XD</li>
+									<li class="badge badge-accent mr-1 mb-2">BEM</li>
+									<li class="badge badge-accent mr-1 mb-2">Git / GitHub</li>
+									<li class="badge badge-accent mr-1 mb-2">npm</li>
+									<li class="badge badge-accent mr-1 mb-2">ターミナル</li>
+									<li class="badge badge-accent mr-1 mb-2">Photoshop</li>
+									<li class="badge badge-accent mr-1 mb-2">Illustrator</li>
+									<li class="badge badge-accent mr-1 mb-2">Adobe XD</li>
 								</ul>
 							</div>
 						</div>
@@ -198,7 +198,7 @@ get_header();
 						</p>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-success text-white rounded-0" data-dismiss="modal">閉じる</button>
+						<button type="button" class="btn btn-success text-white" data-dismiss="modal">閉じる</button>
 					</div>
 				</div>
 			</div>
@@ -217,7 +217,7 @@ get_header();
 						</p>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-danger text-white rounded-0" data-dismiss="modal">閉じる</button>
+						<button type="button" class="btn btn-danger text-white" data-dismiss="modal">閉じる</button>
 					</div>
 				</div>
 			</div>
