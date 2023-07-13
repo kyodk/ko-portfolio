@@ -172,9 +172,7 @@ get_header();
 						<h2 class="mb-6 font-weight-bold ltr-spacing">Contact</h2>
 					</div>
 				</div>
-			</div>
-			<div class="container sa-fade">
-				<div class="row mt-5 justify-content-center">
+				<div class="row justify-content-center sa-fade">
 					<div class="col-12 col-md-10 col-lg-8">
 					<?php echo do_shortcode( '[contact-form-7 id="133" title="お問合せフォーム" html_id="form"]' ); ?>
 					</div>
