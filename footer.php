@@ -15,7 +15,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-6 text-left">
-					<p class="m-0 text-white"><small>© <?php echo esc_html( date( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?></small></p>
+					<p class="m-0 text-white"><small>© <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?></small></p>
 				</div>
 				<div class="col-6 text-right">
 					<p class="m-0">
