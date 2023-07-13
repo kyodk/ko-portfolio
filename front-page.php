@@ -14,8 +14,8 @@ get_header();
 		<!-- jumbotron -->
 		<div class="jumbotron jumbotron-fluid mx-md-5">
 			<div class="container text-center">
-				<p class="display-4 text-white">Welcome to my portfolio!</p>
-				<p class="lead text-white">I'm a Front-End Developer.</p>
+				<p class="display-4 text-white">Hi! I'm Kayo Odaka!</p>
+				<p class="h4 text-white">A Front-End Developer</p>
 			</div>
 		</div><!-- /jumbotron -->
 
