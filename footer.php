@@ -19,7 +19,7 @@
 				</div>
 				<div class="col-6 text-right">
 					<p class="m-0">
-						<small><a href="<?php echo esc_url( get_page_link( 3 ) ); ?>" class="text-white link-privacy">プライバシーポリシー</a></small>
+						<small><a href="<?php echo esc_url( get_page_link( 3 ) ); ?>" class="text-white link-privacy">Privacy Policy</a></small>
 					</p>
 				</div>
 			</div>
