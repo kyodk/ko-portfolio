@@ -74,9 +74,8 @@ get_header();
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-12 mb-5 sa-left">
-						<h3 class="h5 mb-4 font-weight-bold ltr-spacing">Profile</h3>
-						<p class="mb-3">Kayo Odaka</p>
+					<div class="col-12 col-md-7 pr-5 mb-5 mb-md-0 sa-left">
+						<h3 class="h5 mb-5 font-weight-bold ltr-spacing">Profile</h3>
 						<p>
 						愛知県生まれ。<br>
 						大学在学中に中国留学を経験し、卒業後も中国で働く道を選ぶ。<br>
@@ -86,79 +85,26 @@ get_header();
 						現在は、バックエンド開発に必要な技術の習得にも取り組んでいる。
 						</p>
 					</div>
-					<div class="col sa-left">
-						<h3 class="h5 mb-4 font-weight-bold ltr-spacing">Skills</h3>
-						<div class="row">
-							<div class="col-12 col-md-7 mb-5 mb-md-0">
-								<div class="row mb-2 align-items-center">
-									<div class="col-5 col-md-5">HTML5 / CSS3</div>
-									<div class="col-7 col-md-6">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="row mb-2 align-items-center">
-									<div class="col-5 col-md-5">Sass</div>
-									<div class="col-7 col-md-6">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="row mb-2 align-items-center">
-									<div class="col-5 col-md-5">Bootstrap</div>
-									<div class="col-7 col-md-6">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="row mb-2 align-items-center">
-									<div class="col-5 col-md-5">JavaScript (ES2015+)</div>
-									<div class="col-7 col-md-6">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="row mb-2 align-items-center">
-									<div class="col-5 col-md-5">jQuery</div>
-									<div class="col-7 col-md-6">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="row mb-2 align-items-center">
-									<div class="col-5 col-md-5">WordPress</div>
-									<div class="col-7 col-md-6">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="row mb-2 align-items-center">
-									<div class="col-5 col-md-5">PHP</div>
-									<div class="col-7 col-md-6">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-md-5">
-								<ul class="pl-0 m-0">
-									<li class="badge badge-accent mr-1 mb-2">BEM</li>
-									<li class="badge badge-accent mr-1 mb-2">Git / GitHub</li>
-									<li class="badge badge-accent mr-1 mb-2">npm</li>
-									<li class="badge badge-accent mr-1 mb-2">ターミナル</li>
-									<li class="badge badge-accent mr-1 mb-2">Photoshop</li>
-									<li class="badge badge-accent mr-1 mb-2">Illustrator</li>
-									<li class="badge badge-accent mr-1 mb-2">Adobe XD</li>
-								</ul>
-							</div>
-						</div>
+					<div class="col-12 col-md-5 sa-right">
+						<h3 class="h5 mb-5 font-weight-bold ltr-spacing">Skills</h3>
+						<ul class="pl-0 m-0">
+							<li class="badge badge-accent mr-1 mb-2">HTML</li>
+							<li class="badge badge-accent mr-1 mb-2">CSS</li>
+							<li class="badge badge-accent mr-1 mb-2">Sass</li>
+							<li class="badge badge-accent mr-1 mb-2">BEM</li>
+							<li class="badge badge-accent mr-1 mb-2">Bootstrap</li>
+							<li class="badge badge-accent mr-1 mb-2">JavaScript</li>
+							<li class="badge badge-accent mr-1 mb-2">jQuery</li>
+							<li class="badge badge-accent mr-1 mb-2">React</li>
+							<li class="badge badge-accent mr-1 mb-2">Jest</li>
+							<li class="badge badge-accent mr-1 mb-2">WordPress</li>
+							<li class="badge badge-accent mr-1 mb-2">PHP</li>
+							<li class="badge badge-accent mr-1 mb-2">Firebase</li>
+							<li class="badge badge-accent mr-1 mb-2">Git / GitHub</li>
+							<li class="badge badge-accent mr-1 mb-2">Photoshop</li>
+							<li class="badge badge-accent mr-1 mb-2">Illustrator</li>
+							<li class="badge badge-accent mr-1 mb-2">Adobe XD</li>
+						</ul>
 					</div>
 				</div>
 			</div>
