@@ -7,19 +7,20 @@ $font-size-lg: 1rem;
 $enable-responsive-font-sizes: true;
 $line-height-base: 1.65;
 
+$white: #fafafa;
+
 $link-color: #2f2c2a;
 $link-hover-decoration: none;
 $link-hover-color: #102942;
 
 $theme-colors: (
-	"main": #f8f9fa,
+	"main": #6d6ca80f,
 	"accent": #102942,
-	"form": #f8f9fa,
+	"form": #6d6ca80f,
 	"success": #838f1b,
 	"danger": #8f3f14
 );
 $body-color: #2f2c2a;
-$progress-bar-bg: rgba(16, 41, 66, 0.9);
 
 $input-focus-box-shadow: 0 0 0 1px #e2e6ea;
 
