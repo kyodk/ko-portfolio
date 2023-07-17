@@ -27,36 +27,47 @@ get_header();
 						<h2 class="mb-6 font-weight-bold ltr-spacing">Works</h2>
 					</div>
 				</div>
-				<div class="row align-items-center sa-hop justify-content-between">
-					<div class="works-width col-12 col-md-4 mb-5 mb-md-0 mx-auto px-0">
-						<a href="<?php echo esc_url( get_page_link( 26 ) ); ?>">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio-landingpage.jpg" alt="Web制作サービスのWebサイト" class="img-fluid">
+				<div class="row sa-hop">
+					<div class="works-width shadow-sm col-12 col-md-6 px-0 mb-5 mx-auto">
+						<a href="<?php echo esc_url( get_page_link( 241 ) ); ?>">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio-dictionary.jpg" alt="English Dictionary" class="img-fluid">
 							<div class="mask text-left">
-								<p class="mask__number text-white font-weight-bold mb-md-2 mb-lg-3">01</p>
-								<h3 class="mask__title text-white">Web制作サービスのWebサイト</h3>
-								<p class="text-white">Design / Coding</p>
+								<p class="mask__number text-white font-weight-bold mb-md-2 mb-lg-4">01</p>
+								<h3 class="mask__title text-white mb-4">English Dictionary</h3>
+								<p class="text-white mb-5">HTML / CSS / JavaScript / React / React Boostrap / React Router / Context API / Firebase</p>
 								<p class="text-right text-white">View more ></p>
 							</div>
 						</a>
 					</div>
-					<div class="works-width col-12 col-md-4 mb-5 mb-md-0 mx-auto px-0">
-						<a href="<?php echo esc_url( get_page_link( 35 ) ); ?>">
-							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio-wordpress.jpg" alt="ポートフォリオサイト" class="img-fluid">
-							<div class="mask text-left">
-								<p class="mask__number text-white font-weight-bold mb-md-2 mb-lg-3">02</p>
-								<h3 class="mask__title text-white">ポートフォリオサイト</h3>
-								<p class="text-white">Design / Coding</p>
-								<p class="text-right text-white">View more ></p>
-							</div>
-						</a>
-					</div>
-					<div class="works-width col-12 col-md-4 mb-0 mx-auto px-0">
+					<div class="works-width shadow-sm col-12 col-md-6 px-0 mb-5 mx-auto">
 						<a href="<?php echo esc_url( get_page_link( 52 ) ); ?>">
 							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio-todoapp.jpg" alt="Todoアプリ" class="img-fluid">
 							<div class="mask text-left">
-								<p class="mask__number text-white font-weight-bold mb-md-2 mb-lg-3">03</p>
-								<h3 class="mask__title text-white">Todoアプリ</h3>
-								<p class="text-white">Design / Coding</p>
+								<p class="mask__number text-white font-weight-bold mb-md-2 mb-lg-4">02</p>
+								<h3 class="mask__title text-white mb-4">Todoアプリ</h3>
+								<p class="text-white mb-5">HTML / CSS / Bootstrap / JavaScript / MVC / Firebase</p>
+								<p class="text-right text-white">View more ></p>
+							</div>
+						</a>
+					</div>
+					<div class="works-width shadow-sm col-12 col-md-6 px-0 mb-5 mb-md-0 mx-auto">
+						<a href="<?php echo esc_url( get_page_link( 26 ) ); ?>">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio-landingpage.jpg" alt="Web制作サービスのWebサイト" class="img-fluid">
+							<div class="mask text-left">
+								<p class="mask__number text-white font-weight-bold mb-md-2 mb-lg-4">03</p>
+								<h3 class="mask__title text-white mb-4">Web制作サービスのWebサイト</h3>
+								<p class="text-white mb-5">HTML / CSS / Sass / BEM / JavaScript / Firebase</p>
+								<p class="text-right text-white">View more ></p>
+							</div>
+						</a>
+					</div>
+					<div class="works-width shadow-sm col-12 col-md-6 px-0 mx-auto">
+						<a href="<?php echo esc_url( get_page_link( 35 ) ); ?>">
+							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio-wordpress.jpg" alt="ポートフォリオサイト" class="img-fluid">
+							<div class="mask text-left">
+								<p class="mask__number text-white font-weight-bold mb-md-2 mb-lg-4">04</p>
+								<h3 class="mask__title text-white mb-4">ポートフォリオサイト</h3>
+								<p class="text-white mb-5">HTML / CSS / Sass / Bootstrap / JavaScript / jQuery / WordPress (Incl. Plugin development)</p>
 								<p class="text-right text-white">View more ></p>
 							</div>
 						</a>
