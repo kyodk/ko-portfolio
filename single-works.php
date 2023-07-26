@@ -15,7 +15,9 @@ get_header();
 	$coding       = get_post_meta( $post->ID, 'coding', true );
 	$url          = get_post_meta( $post->ID, 'url', true );
 	$github       = get_post_meta( $post->ID, 'github', true );
-	$image        = get_post_meta( $post->ID, 'image', true );
+	$githubplugin = get_post_meta( $post->ID, 'githubplugin', true );
+	$tools        = get_post_meta( $post->ID, 'tools', true );
+	$media        = get_post_meta( $post->ID, 'media', true );
 	$allowed_html = array(
 		'br' => array(),
 	)
@@ -29,7 +31,7 @@ get_header();
 						<div class="col-12">
 							<h2 class="font-weight-bold"><?php the_title(); ?></h2>
 							<p>
-							<?php 
+							<?php
 							echo esc_html( $category );
 							?>
 							</p>
@@ -46,7 +48,7 @@ get_header();
 						<div class="col-12 col-md-10 mb-4">
 							<p class="mb-4 font-weight-bold ltr-spacing">Design</p>
 							<p>
-							<?php 
+							<?php
 							echo wp_kses( nl2br( $design ), $allowed_html );
 							?>
 							</p>
@@ -54,7 +56,7 @@ get_header();
 						<div class="col-12 col-md-10 mb-5">
 							<p class="mb-4 font-weight-bold ltr-spacing">Coding</p>
 							<p>
-							<?php 
+							<?php
 							echo wp_kses( nl2br( $coding ), $allowed_html );
 							?>
 							</p>
@@ -65,12 +67,12 @@ get_header();
 								<dd class="col-12 col-md-10">
 									</a>
 									<a class="link-st" href="
-									<?php 
+									<?php
 									echo esc_url( $url );
 									?>
 									" target="_blank" rel="noopener noreferrer">
-									<?php 
-									echo esc_url( $url ); 
+									<?php
+									echo esc_url( $url );
 									?>
 									</a>
 								</dd>
@@ -79,19 +81,42 @@ get_header();
 								<dt class="col-12 col-md-2 mb-2 mb-md-0 ltr-spacing">GitHub</dt>
 								<dd class="col-12 col-md-10">
 									<a class="link-st" href="
-									<?php 
-									echo esc_url( $github ); 
+									<?php
+									echo esc_url( $github );
 									?>
 									" target="_blank" rel="noopener noreferrer">
-									<?php 
-									echo esc_url( $github ); 
+									<?php
+									echo esc_url( $github );
 									?>
 									</a>
 								</dd>
 							</dl>
+							<?php if ( $githubplugin ) : ?>
+								<dl class="row mb-4">
+									<dt class="col-12 col-md-2 mb-2 mb-md-0 ltr-spacing">Plugin</dt>
+									<dd class="col-12 col-md-10">
+										<a class="link-st" href="
+										<?php
+										echo esc_url( $githubplugin );
+										?>
+										" target="_blank" rel="noopener noreferrer">
+										<?php
+										echo esc_url( $githubplugin );
+										?>
+										</a>
+									</dd>
+								</dl>
+							<?php endif; ?>
 							<dl class="row">
-								<dt class="col-12 col-md-2 ltr-spacing">Role</dt>
-								<dd class="col-12 col-md-10">Design / Development</dd>
+								<dt class="col-12 col-md-2 mb-1 ltr-spacing">Tools</dt>
+								<dd class="col-12 col-md-10">
+								<?php
+								$usedtools = explode( ',', $tools );
+								foreach ( $usedtools as $usedtool ) {
+									echo '<li class="badge badge-accent mr-2 mb-2">' . esc_html( $usedtool ) . '</li>';
+								}
+								?>
+								</dd>
 							</dl>
 						</div>
 					</div>
@@ -102,8 +127,8 @@ get_header();
 					<div class="row justify-content-center">
 						<div class="col-12 col-md-8 mb-7">
 							<img src="
-							<?php 
-							echo esc_html( $image ); 
+							<?php
+							echo esc_url( $media );
 							?>
 							"/>
 						</div>
