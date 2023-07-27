@@ -41,7 +41,7 @@ get_header();
 						<div class="col-12 col-md-10 mb-5">
 						<?php
 						if ( has_post_thumbnail() ) {
-							the_post_thumbnail();
+							the_post_thumbnail( 'post-thumbnail', array( 'class' => 'shadow-sm' ) );
 						}
 						?>
 						</div>
@@ -125,12 +125,12 @@ get_header();
 			<section class="content-block bg-main">
 				<div class="container">
 					<div class="row justify-content-center">
-						<div class="col-12 col-md-8 mb-7">
+						<div class="col-12 col-md-10 mb-7">
 							<img src="
-							<?php
-							echo esc_url( $media );
-							?>
-							"/>
+								<?php
+								echo esc_url( $media );
+								?>
+							" class="shadow-sm" width="920px"/>
 						</div>
 					</div>
 					<div class="row align-items-center">
