@@ -199,3 +199,8 @@ function author_archive_redirect() {
 	}
 }
 add_action( 'template_redirect', 'author_archive_redirect' );
+
+/**
+ * Disable big image size scaling.
+ */
+add_filter( 'big_image_size_threshold', '__return_false' );
