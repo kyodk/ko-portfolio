@@ -11,8 +11,8 @@ get_header();
 ?>
 <?php
 	$category     = get_post_meta( $post->ID, 'category', true );
-	$design       = get_post_meta( $post->ID, 'design', true );
-	$coding       = get_post_meta( $post->ID, 'coding', true );
+	$description  = get_post_meta( $post->ID, 'description', true );
+	$point        = get_post_meta( $post->ID, 'point', true );
 	$url          = get_post_meta( $post->ID, 'url', true );
 	$github       = get_post_meta( $post->ID, 'github', true );
 	$githubplugin = get_post_meta( $post->ID, 'githubplugin', true );
@@ -38,28 +38,28 @@ get_header();
 						</div>
 					</div>
 					<div class="row justify-content-center">
-						<div class="col-12 col-md-10 mb-5">
+						<div class="col-12 col-md-10 mb-6">
 						<?php
 						if ( has_post_thumbnail() ) {
 							the_post_thumbnail( 'post-thumbnail', array( 'class' => 'shadow-sm' ) );
 						}
 						?>
 						</div>
-						<div class="col-12 col-md-10 mb-4">
-							<p class="mb-4 font-weight-bold ltr-spacing">Design</p>
-							<p>
-							<?php
-							echo wp_kses( nl2br( $design ), $allowed_html );
-							?>
-							</p>
-						</div>
 						<div class="col-12 col-md-10 mb-5">
-							<p class="mb-4 font-weight-bold ltr-spacing">Coding</p>
-							<p>
+							<h3 class="mb-4 font-weight-bold ltr-spacing">Overview</h3>
+							<p class="mb-5">
 							<?php
-							echo wp_kses( nl2br( $coding ), $allowed_html );
+							echo wp_kses( nl2br( $description ), $allowed_html );
 							?>
 							</p>
+							<ul class="pl-4 m-0">
+							<?php
+							$pointitems = explode( ',', $point );
+							foreach ( $pointitems as $pointitem ) {
+								echo '<li class="mb-2">' . esc_html( $pointitem ) . '</li>';
+							}
+							?>
+							</ul>
 						</div>
 						<div class="col-12 col-md-10">
 							<dl class="row mb-4">
