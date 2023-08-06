@@ -3,4 +3,8 @@ module.exports = {
 	globals: {
 		$: false,
 	},
+	parser: '@babel/eslint-parser',
+	parserOptions: {
+		requireConfigFile: false,
+	},
 };
