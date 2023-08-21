@@ -4,19 +4,17 @@ $font-family-sans-serif: "Lato", "Helvetica Neue", helvetica, "Arial",
 	"Yu Gothic", yugothic, "Hiragino Kaku Gothic ProN", meiryo, sans-serif;
 
 $font-size-lg: 1rem;
-$enable-responsive-font-sizes: true;
 $line-height-base: 1.65;
 
 $white: #fafafa;
 
 $link-color: #2f2c2a;
-$link-hover-decoration: none;
 $link-hover-color: #102942;
+$link-decoration: none;
 
 $theme-colors: (
-	"main": #6d6ca80f,
-	"accent": #102942,
-	"form": #6d6ca80f,
+	"primary": #6d6ca8,
+	"secondary": #102942,
 	"success": #838f1b,
 	"danger": #8f3f14
 );
@@ -25,8 +23,6 @@ $body-color: #2f2c2a;
 $input-focus-box-shadow: 0 0 0 1px #e2e6ea;
 
 $transition-fade: opacity 0.2s ease;
-
-$jumbotron-padding: 11rem;
 
 $badge-font-size: 80%;
 $badge-font-weight: 500;

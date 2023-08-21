@@ -32,8 +32,13 @@ p {
 }
 
 .jumbotron {
+	padding: 11rem 0;
 	margin-bottom: 0 !important;
 	background: url(./images/main-visual.jpg) no-repeat 50% / cover;
+
+	@include mq(sm) {
+		padding:22rem 0;
+	}
 }
 
 .content-block {
@@ -50,14 +55,6 @@ p {
 
 .mb-7 {
 	margin-bottom: 6.5rem;
-}
-
-.pl-6 {
-	padding-left: 4rem;
-}
-
-.pr-6 {
-	padding-right: 4rem;
 }
 
 .pager-fs {
@@ -101,12 +98,12 @@ p {
 	}
 }
 
-.btn-accent:hover {
+.btn-secondary:hover {
 	background-color: rgba(16, 41, 66, 0.8) !important;
 	border-color: rgba(16, 41, 66, 0.8) !important;
 }
 
-.btn-accent:visited {
+.btn-secondary:visited {
 	color: #fafafa;
 }
 
@@ -119,9 +116,6 @@ p {
 }
 
 .mask {
-	position: absolute;
-	top: 0;
-	left: 0;
 	width: 100%;
 	height: 100%;
 	padding: 2rem;

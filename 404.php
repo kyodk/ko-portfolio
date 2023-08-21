@@ -15,9 +15,9 @@ get_header();
 			<div class="container">
 				<div class="row text-center">
 					<div class="col-12">
-						<h1 class="h2 font-weight-bold mb-5">ページが見つかりませんでした</h1>
-						<p class=" mb-5">指定したURLが間違っているか、お探しのページが削除された可能性があります。</p>
-						<a class="btn btn-accent btn-lg px-btn py-3 py-md-2"  href="<?php echo esc_url( home_url( '/' ) ); ?>">Top</a>
+						<p class="fs-2 fw-bold mb-5">ページが見つかりませんでした</p>
+						<p class="mb-5">指定したURLが間違っているか、お探しのページが削除された可能性があります。</p>
+						<a class="btn btn-secondary btn-lg px-btn py-3 py-md-2"  href="<?php echo esc_url( home_url( '/' ) ); ?>">Top</a>
 					</div>
 				</div>
 			</div>
