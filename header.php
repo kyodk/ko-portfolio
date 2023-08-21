@@ -31,9 +31,9 @@
 				<?php
 				if ( is_front_page() || is_home() ) :
 					?>
-				<h1 class="site-title header__logo h3 m-0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+				<h1 class="site-title header__logo fs-3 m-0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 				<?php else : ?>
-				<p class="site-title header__logo h3 m-0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<p class="site-title header__logo fs-3 m-0"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 					<?php
 				endif;
 				$ko_portfolio_description = get_bloginfo( 'description', 'display' );
@@ -85,7 +85,7 @@
 						<?php endif; ?>
 					</li>
 					<li class="gnav__item">
-						<a class="gnav__link btn btn-accent" href="https://github.com/kyodk/" target="_blank" rel="noopener noreferrer">GitHub</a>
+						<a class="gnav__link btn btn-secondary" href="https://github.com/kyodk/" target="_blank" rel="noopener noreferrer">GitHub</a>
 					</li>
 				</ul>
 			</nav><!-- .gnav -->
