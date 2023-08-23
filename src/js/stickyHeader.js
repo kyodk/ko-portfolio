@@ -1,18 +1,18 @@
 import throttle from 'lodash.throttle';
+import elements from './elements';
 
-$( function () {
-	// throttleでスクロールイベントを250ミリ秒に1回に制限
-	$( window ).on(
-		'load scroll',
-		throttle( function () {
-			const body = $( 'body' );
-			const scroll = $( this ).scrollTop();
-			if ( scroll > 300 ) {
-				body.addClass( 'is-scrolled' );
-				body.removeClass( 'is-nav-open' );
-			} else {
-				body.removeClass( 'is-scrolled' );
-			}
-		}, 250 )
-	);
-} );
+// throttleでスクロールイベントを250ミリ秒に1回に制限
+window.addEventListener(
+	'scroll',
+	throttle( () => {
+		const scroll =
+      document.documentElement.scrollTop || document.body.scrollTop;
+		if ( scroll > 300 ) {
+			elements.body.classList.add( 'is-scrolled' );
+			// ドロワーを閉じる
+			elements.body.classList.remove( 'is-nav-open' );
+		} else {
+			elements.body.classList.remove( 'is-scrolled' );
+		}
+	}, 250 )
+);
