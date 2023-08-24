@@ -27,7 +27,7 @@ get_header();
 						<h2 class="fw-bold mb-6 ltr-spacing">Works</h2>
 					</div>
 				</div>
-				<div class="row sa-hop">
+				<div class="row sa-target sa-hop">
 					<div class="works-width position-relative shadow-sm col-12 col-md-6 px-0 mb-5 mx-auto">
 						<a href="<?php echo esc_url( get_page_link( 241 ) ); ?>">
 							<img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/portfolio-dictionary.jpg" alt="English Dictionary" class="img-fluid">
@@ -85,7 +85,7 @@ get_header();
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-12 col-md-7 pe-5 mb-5 mb-md-0 sa-left">
+					<div class="col-12 col-md-7 pe-5 mb-5 mb-md-0 sa-target sa-left">
 						<h3 class="fs-5 fw-bold mb-5 ltr-spacing">Profile</h3>
 						<p>
 						愛知県生まれ。<br>
@@ -96,7 +96,7 @@ get_header();
 						現在は、バックエンド開発に必要な技術の習得にも取り組んでいる。
 						</p>
 					</div>
-					<div class="col-12 col-md-5 sa-right">
+					<div class="col-12 col-md-5 sa-target sa-right">
 						<h3 class="fs-5 fw-bold mb-5 ltr-spacing">Skills</h3>
 						<ul class="ps-0 m-0">
 							<li class="badge bg-secondary me-1 mb-2">HTML</li>
@@ -129,7 +129,7 @@ get_header();
 						<h2 class="fw-bold mb-6 ltr-spacing">Contact</h2>
 					</div>
 				</div>
-				<div class="row justify-content-center sa-fade">
+				<div class="row justify-content-center sa-target">
 					<div class="col-12 col-md-10 col-lg-8">
 					<?php echo do_shortcode( '[contact-form-7 id="133" title="お問合せフォーム" html_id="form"]' ); ?>
 					</div>
