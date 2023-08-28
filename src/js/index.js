@@ -8,6 +8,5 @@ import '../scss/index.scss';
 
 import './toggleDrawer';
 import './stickyHeader';
-import './smoothScroll';
 import './scrollAnimation';
 import './sendMail';
