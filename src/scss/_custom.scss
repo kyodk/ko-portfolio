@@ -37,7 +37,7 @@ p {
 	background: url(./images/main-visual.jpg) no-repeat 50% / cover;
 
 	@include mq(sm) {
-		padding:22rem 0;
+		padding: 22rem 0;
 	}
 }
 
