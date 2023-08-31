@@ -138,8 +138,8 @@ get_header();
 		</section><!-- /contact-form -->
 
 		<!-- modal -->
-		<div class="modal fade" id="ModalCenterSuccess" tabindex="-1" role="dialog" aria-labelledby="ModalCenterSuccessTitle" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal fade" id="ModalCenterSuccess" tabindex="-1" aria-labelledby="ModalCenterSuccessTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content border-0">
 					<div class="modal-header border-0 bg-secondary">
 						<h5 class="modal-title text-white" id="ModalCenterSuccessTitle">送信完了</h5>
@@ -153,14 +153,14 @@ get_header();
 						</p>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-success text-white" data-dismiss="modal">閉じる</button>
+						<button type="button" class="btn btn-success text-white" data-bs-dismiss="modal">閉じる</button>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="modal fade" id="ModalCenterFail" tabindex="-1" role="dialog" aria-labelledby="ModalCenterFailTitle" aria-hidden="true">
-			<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal fade" id="ModalCenterFail" tabindex="-1" aria-labelledby="ModalCenterFailTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
 				<div class="modal-content border-0">
 					<div class="modal-header border-0 bg-secondary">
 						<h5 class="modal-title text-white" id="ModalCenterFailTitle">送信失敗</h5>
@@ -172,7 +172,7 @@ get_header();
 						</p>
 					</div>
 					<div class="modal-footer">
-						<button type="button" class="btn btn-danger text-white" data-dismiss="modal">閉じる</button>
+						<button type="button" class="btn btn-danger text-white" data-bs-dismiss="modal">閉じる</button>
 					</div>
 				</div>
 			</div>
