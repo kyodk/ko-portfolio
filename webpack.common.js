@@ -9,7 +9,6 @@ module.exports = {
 	},
 	module: {
 		rules: [
-			// Babel
 			{
 				test: /\.js$/,
 				use: [
@@ -22,7 +21,6 @@ module.exports = {
 				],
 			},
 
-			// SCSS
 			{
 				test: /\.scss$/,
 				use: [
@@ -43,11 +41,8 @@ module.exports = {
 						loader: 'postcss-loader',
 						options: {
 							sourceMap: true,
-							// ベンダープレフィックスの自動付与
 							postcssOptions: {
 								plugins: [
-									// Autoprefixerを有効化
-									// ベンダープレフィックスを自動付与する
 									[ 'autoprefixer', { grid: true } ],
 								],
 							},

@@ -1,7 +1,5 @@
-// _s
 @import "./_s/s";
 
-// 自分で追加したscssファイル
 @import "media-query";
 @import "custom";
 @import "bs-variable";
@@ -10,5 +8,4 @@
 @import "hamburger";
 @import "scroll-animation";
 
-// Bootstrap
 @import "bootstrap";

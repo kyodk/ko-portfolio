@@ -1,8 +1,7 @@
 import throttle from 'lodash.throttle';
 
 const createScrollHandler = ( target ) => () => {
-	// 数値が大きいほど発火タイミングが遅くなる
-	const adjust = 200;
+	const adjust = 200; // 発火タイミング調整用 数値が大きいほど遅くなる
 	const { top } = target.getBoundingClientRect();
 	const scroll = window.scrollY;
 	const position = top + scroll;
@@ -15,6 +14,5 @@ const createScrollHandler = ( target ) => () => {
 const targets = document.querySelectorAll( '.sa-target' );
 
 targets.forEach( ( target ) => {
-	// throttleでスクロールイベントを250ミリ秒に1回に制限
 	window.addEventListener( 'scroll', throttle( createScrollHandler( target ), 250 ) );
 } );
