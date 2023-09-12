@@ -54,9 +54,9 @@ get_header();
 							</p>
 							<ul class="ps-4 m-0">
 							<?php
-							$pointitems = explode( ',', $point );
+							$pointitems = explode( '・', $point );
 							foreach ( $pointitems as $pointitem ) {
-								echo '<li class="mb-2">' . esc_html( $pointitem ) . '</li>';
+								echo '<li class="mb-3">' . esc_html( $pointitem ) . '</li>';
 							}
 							?>
 							</ul>
