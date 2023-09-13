@@ -89,11 +89,9 @@ get_header();
 						<h3 class="fs-5 fw-bold mb-5 ltr-spacing">Profile</h3>
 						<p>
 						愛知県生まれ。<br>
-						大学在学中に中国留学を経験し、卒業後も中国で働く道を選ぶ。<br>
-						入社研修で、HTMLを学んだことをきっかけにWebの魅力に惹きつけられ、社内向けWebマガジン制作メンバーに立候補し、企画取材からコーディングまで幅広く担当する。<br>
-						退職後は、多様な価値観や生き方を目にすることで、柔軟な心で物事を捉えられるようになりたいと考え、夫婦で世界を周る。<br>
-						その後は、JavaScript、WordPressを習得し、フリーランスとして活動を開始。<br>
-						現在は、バックエンド開発に必要な技術の習得にも取り組んでいる。
+						大学在学中に中国留学を経験し、卒業後も中国で働く道を選びました。<br>
+						入社研修で、HTMLを学んだことをきっかけにWebの魅力に惹きつけられ、社内向けWebマガジン制作メンバーとして、企画取材からコーディングまで幅広く担当しました。<br>
+						退職後は、様々な国の文化や人々に触れたいという思いから夫婦で世界を周り、帰国後はフリーランスのフロントエンドエンジニアとして活動しました。
 						</p>
 					</div>
 					<div class="col-12 col-md-5 sa-target sa-right">
@@ -107,6 +105,7 @@ get_header();
 							<li class="badge bg-secondary me-1 mb-2">JavaScript</li>
 							<li class="badge bg-secondary me-1 mb-2">jQuery</li>
 							<li class="badge bg-secondary me-1 mb-2">React</li>
+							<li class="badge bg-secondary me-1 mb-2">React Testing Library</li>
 							<li class="badge bg-secondary me-1 mb-2">Jest</li>
 							<li class="badge bg-secondary me-1 mb-2">WordPress</li>
 							<li class="badge bg-secondary me-1 mb-2">PHP</li>
