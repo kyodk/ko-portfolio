@@ -7,7 +7,7 @@
   "scripts": {
     "start": "webpack --watch --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "imagemin": "node imagemin.js",
+    "imagemin": "node imagemin.mjs",
     "lint:es": "eslint src/**/*.js",
     "lint:es:fix": "eslint --fix src/**/*.js",
     "lint:style": "stylelint src/**/*.scss",
