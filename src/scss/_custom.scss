@@ -117,13 +117,17 @@ p {
 .mask {
 	width: 100%;
 	height: 100%;
-	padding: 2rem;
+	padding: 1rem 1.5rem;
+	font-size: 0.85rem;
 	background: rgba(16, 41, 66, 0.85);
 	opacity: 0;
 
+	@include mq(sm) {
+		font-size: 0.9rem;
+	}
+
 	@include mq(md) {
-		padding: 1rem;
-		font-size: 0.8rem;
+		font-size: 0.85rem;
 	}
 
 	@include mq(lg) {
@@ -137,7 +141,11 @@ p {
 	}
 
 	&__number {
-		font-size: 1.9rem;
+		font-size: 1.2rem;
+
+		@include mq(sm) {
+			font-size: 1.9rem;
+		}
 
 		@include mq(md) {
 			font-size: 1.2rem;
@@ -149,10 +157,14 @@ p {
 	}
 
 	&__title {
-		font-size: 1.2rem;
+		font-size: 1rem;
+
+		@include mq(sm) {
+			font-size: 1.2rem;
+		}
 
 		@include mq(md) {
-			font-size: 0.9rem;
+			font-size: 1rem;
 		}
 
 		@include mq(lg) {
