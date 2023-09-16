@@ -135,10 +135,10 @@ get_header();
 					</div>
 					<div class="row align-items-center">
 						<div class="col-6 text-start pager-fs">
-						<?php previous_post_link( '%link', '« %title' ); ?>
+						<?php next_post_link( '%link', '« %title' ); ?>
 						</div>
 						<div class="col-6 text-end pager-fs">
-						<?php next_post_link( '%link', '%title »' ); ?>
+						<?php previous_post_link( '%link', '%title »' ); ?>
 						</div>
 					</div>
 				</div>
