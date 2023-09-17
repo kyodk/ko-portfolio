@@ -67,7 +67,7 @@ get_header();
 							<div class="mask position-absolute top-0 start-0">
 								<p class="mask__number text-white fw-bold mb-lg-4">04</p>
 								<h3 class="mask__title text-white mb-3 mb-sm-4">ポートフォリオサイト</h3>
-								<p class="text-white mb-4 mb-sm-5 mb-md-4 mb-lg-5">HTML / CSS / Sass / Bootstrap / JavaScript / jQuery / WordPress (Incl. Plugin development)</p>
+								<p class="text-white mb-4 mb-sm-5 mb-md-4 mb-lg-5">HTML / CSS / Sass / Bootstrap / JavaScript / WordPress (Incl. Plugin development)</p>
 								<p class="text-end text-white mb-0">View more ></p>
 							</div>
 						</a>
