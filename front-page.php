@@ -34,7 +34,7 @@ get_header();
 							<div class="mask position-absolute top-0 start-0">
 								<p class="mask__number text-white fw-bold mb-lg-4">01</p>
 								<h3 class="mask__title text-white mb-3 mb-sm-4">English Dictionary</h3>
-								<p class="text-white mb-4 mb-sm-5 mb-md-4 mb-lg-5">HTML / CSS / JavaScript / React / React Boostrap / React Router / React Context / Firebase</p>
+								<p class="text-white mb-4 mb-sm-5 mb-md-4 mb-lg-5">HTML / CSS / JavaScript / React / React Bootstrap / React Router / React Context / Firebase</p>
 								<p class="text-end text-white mb-0">View more ></p>
 							</div>
 						</a>
